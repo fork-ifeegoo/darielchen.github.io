@@ -1,2 +1,3 @@
 # darielchen.github.io
-http://darielchen.github.io
+
+https://darielchen.github.io/SwiftManual/
