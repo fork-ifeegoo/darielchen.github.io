@@ -32,5 +32,5 @@ for value in charDict.values {             // 遍历字典中的所有value
     print(value)                           // B 换行 A
 }
 
-let arrKeys = charDict.keys.sorted()       // ["char1", "char2"], 获取字典中所有key的数组
-let arrValues = charDict.values.sorted()   // ["A", "B"], 获取字典中所有value的数组
+let arrKeys = [String](charDict.keys)   // ["char1", "char2"], 获取字典中所有key的数组
+let arrValues = [String](charDict.values)   // ["A", "B"], 获取字典中所有value的数组

@@ -81,9 +81,10 @@ for value in charDict.values {             // 遍历字典中的所有value
             <tr>
                 <td class='docs'> 4. 获取字典中所有的key和value </td>
                 <td class='code'>
-                    <pre><code class='language-swift'>let arrKeys = charDict.keys.sorted()       // ["char1", "char2"], 获取字典中所有key的数组
+                    <pre><code class='language-swift'>
+let arrKeys = [String](charDict.keys)      // ["char1", "char2"], 获取字典中所有key的数组
 
-let arrValues = charDict.values.sorted()   // ["A", "B"], 获取字典中所有value的数组
+let arrValues = [String](charDict.values)  // ["A", "B"], 获取字典中所有value的数组
 </code></pre>
                 </td>
             </tr>
