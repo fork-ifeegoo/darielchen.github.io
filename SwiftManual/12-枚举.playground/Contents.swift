@@ -74,8 +74,8 @@ print(Direct.North.rawValue)           // North
 // 使用原始值初始化枚举实例
 
 // 在定义枚举类型的时候使用了原始值,会自动获得一个初始化方法
-let secondMonth = Mouth(rawValue: 3)   // 获得的是一个可选类型
-print(secondMonth)                     // Optional(Mouth.March)
+let secondMonth = Mouth(rawValue: 2)   // 获得的是一个可选类型
+print(secondMonth)                     // Optional(Mouth.February)
 
 
 // 用递归枚举创建表达式:(5+4)*2
@@ -102,6 +102,3 @@ func evaluate(express: Arth) -> Int {
 }
 print(result) // Mul(Arth.Add(Arth.Number(5), Arth.Number(4)), Arth.Number(2))
 print(evaluate(express: result))       // 18
-
-
-
