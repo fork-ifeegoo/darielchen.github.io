@@ -2,10 +2,9 @@
 
 import UIKit
 
-// 01-Hello World
-print("Hello World")
 
-// 02-变量与常量
+
+// 变量与常量
 let constantString: String = "Hello"       // let 常量名称: 字符串类型 = "字符串"
 var varibleString: String = "World"        // var 变量名称: 字符串类型 = "字符串"
 

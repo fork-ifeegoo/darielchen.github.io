@@ -31,7 +31,8 @@
 
 // 类与结构体的区别:
 // 类:允许一个类继承另一个;允许引用计数器对一个类的多次引用
-// 结构体:结构体通过复制的方式在代码中传递; 不使用引用计数器</code></pre>
+// 结构体:结构体通过复制的方式在代码中传递; 不使用引用计数器
+                    </code></pre>
                 </td>
             </tr>
 
@@ -44,7 +45,8 @@
 
 struct StructureName {                 // 结构体的首字母也大写
     // 属性和方法
-}</code></pre>
+}
+                    </code></pre>
                 </td>
             </tr>
 
@@ -71,7 +73,8 @@ print(someResolution.width)            // 0, 通过点语法访问属性
 print(someVideoMode.resolution.height) // 0, 访问子属性
 
 someVideoMode.resolution.height = 32   // 可以直接为属性和子属性赋值
-print(someVideoMode.resolution.height) // 32, 访问子属性</code></pre></td>
+print(someVideoMode.resolution.height) // 32, 访问子属性
+                    </code></pre></td>
             </tr>
 
             <tr>
@@ -80,7 +83,8 @@ print(someVideoMode.resolution.height) // 32, 访问子属性</code></pre></td>
                     <pre><code class='language-swift'>let initRes1 = Resolution(width: 64, height: 48) // 结构体可设置属性的默认构造器
 print("\(initRes1.width), \(initRes1.height)") // 64, 48
 
-// 类没有默认构造器,需要自定义</code></pre>
+// 类没有默认构造器,需要自定义
+                    </code></pre>
                 </td>
             </tr>
 
@@ -102,7 +106,8 @@ var direct1 = Direction.North
 var direct2 = direct1
 direct2 = Direction.South
 print(direct1)                         // North,direct2的值改变不会影响direct1
-print(direct2)                         // South</code></pre>
+print(direct2)                         // South
+                    </code></pre>
                 </td>
             </tr>
 
@@ -120,7 +125,8 @@ print(videoM1.name!)                   // videoM2
 print(videoM2.name!)                   // videoM2, videoM2的属性改变会影响带videoM1
 
 // 恒等运算符(===)用三个等于表示,表示两个类型的常量或变量是否引用同一个实例
-print(videoM1 === videoM2)            // true, 使用"==="判断两个引用是否指向同一个对象</code></pre>
+print(videoM1 === videoM2)            // true, 使用"==="判断两个引用是否指向同一个对象
+                    </code></pre>
                 </td>
             </tr>
 
@@ -131,7 +137,8 @@ print(videoM1 === videoM2)            // true, 使用"==="判断两个引用是�
 // 类: 需要包含复杂的属性方法,能形成一个抽象的事物描述;需要用到继承;需要用到引用拷贝
 
 // 字符串,数组,字典的底层都是通过结构体实现的,所以它们在被赋值的时候都是通过值拷贝,
-// 当然了swift在内部会做性能优化,不会是只要赋值就拷贝,只有在必要的时候才会进行值拷贝.</code></pre>
+// 当然了swift在内部会做性能优化,不会是只要赋值就拷贝,只有在必要的时候才会进行值拷贝.
+                    </code></pre>
                 </td>
             </tr>
 
