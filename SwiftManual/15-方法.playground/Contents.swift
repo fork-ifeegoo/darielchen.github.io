@@ -89,6 +89,7 @@ struct SomeStruct {
 SomeStruct.printSome()
 
 
+
 class Level {
     static var commonLevel = 1         // 公共等级
     // 通过添加class关键字变成类方法,该方法允许子类继承
