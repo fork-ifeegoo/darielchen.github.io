@@ -1,11 +1,11 @@
-# Swift3.0语法速查手册
+# [Swift3.0语法速查手册](https://darielchen.github.io/SwiftManual/)
 
 ### 前言
 语法这个东西很枯燥,但swift的语法量又不少.一直以来都想有那么一个网站,可以在用到相关部分的语法的时候去查一下.
 
-虽然苹果官方是有提供资料的,但厚厚的一本翻起来是不那么方便,于是萌生了自己写一个东西出来,用到的时候可以去翻一翻.
+虽然苹果官方是有提供资料的,但厚厚的一本翻起来是不那么方便,于是萌生了自己写一个东西出来,用到的时候可以去翻一翻的念头.
 
-正好最近有空,然后就开始了做这么一件事,也希望可以帮助到大家.
+正好最近有空,然后就开始做这么一件事,也希望可以帮助到大家.
 
 还希望能够给刚刚开始学swift的童鞋做一个参考.
 
@@ -36,7 +36,7 @@
 
 
 
-### 参考文献
+### 参考
 * 官方文档[The Swift Programming Language](https://swift.org/documentation/#the-swift-programming-language)
 * 官方文档的中文版[The Swift Programming Language中文版](https://github.com/numbbbbb/the-swift-programming-language-in-chinese)
 * Raywenderlich的[Swift Apprentice
@@ -44,5 +44,6 @@ Beginning programming with Swift 3](http://www.raywenderlich.com/store/swift-app
 
 
 
-### 附录:怎样让GitHub支持自己写的静态网页
+### 附录
+#### 怎样让GitHub支持自己写的静态网页
 其实很简单,原理就和利用[Hexo](https://hexo.io)搭建博客差不多.新建一个`你的ID.github.io`的repository,然后直接将写好的静态网页`push`上去,就可以用`https://你的ID.github.io/文件路径`打开啦!
