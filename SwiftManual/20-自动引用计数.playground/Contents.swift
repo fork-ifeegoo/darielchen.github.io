@@ -35,6 +35,9 @@ class People {
     let name: String
     init(name: String) { self.name = name }
     var apartment: Apartment?              // 人住的公寓属性
+    deinit {
+        print("People被销毁")
+    }
 }
 
 class Apartment {
@@ -42,7 +45,7 @@ class Apartment {
     init(unit: String) { self.unit = unit }
     var tenant: People?                   // 公寓中的人的属性
     deinit {
-        print("\(unit)被销毁")
+        print("Apartment被销毁")
     }
 }
 
@@ -132,6 +135,7 @@ var country: Country? = Country(name: "China", capitalName: "HangZhou")
 print(country!.name)                        // China
 print(country!.capitalCity.name)            // HangZhou
 country = nil                               // 同时销毁两个实例
+
 
 
 // 闭包也是引用类型,也会引起的循环强引用
