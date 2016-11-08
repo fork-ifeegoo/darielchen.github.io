@@ -36,7 +36,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/manual/22-error-handling/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
+            <state relative-caret-position="252">
               <caret line="152" column="33" selection-start-line="152" selection-start-column="33" selection-end-line="152" selection-end-column="33" />
               <folding />
             </state>
@@ -327,12 +327,12 @@
       <workItem from="1478007034029" duration="3091000" />
       <workItem from="1478068237360" duration="712000" />
       <workItem from="1478497358599" duration="2910000" />
-      <workItem from="1478588411211" duration="1901000" />
+      <workItem from="1478588411211" duration="2364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66018000" />
+    <option name="totallyTimeSpent" value="66481000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="831" extended-state="6" />
@@ -704,7 +704,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/manual/22-error-handling/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
+        <state relative-caret-position="252">
           <caret line="152" column="33" selection-start-line="152" selection-start-column="33" selection-end-line="152" selection-end-column="33" />
           <folding />
         </state>
