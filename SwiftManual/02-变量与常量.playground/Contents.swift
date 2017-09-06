@@ -20,7 +20,7 @@ print("π的值是:\(pi)")                      // 输出:3.1415926.输出字符
 
 let three = 3                             // 按住option,鼠标移动到变量名上,点击可以查看常量类型
 var pointOneFour = 0.14                   // 系统自动推断pointOneFour的类型为:Double
-pi = Double(three) + pointOneFour         // 只有类型一直才能操作,转换格式: 类型名(变量或常量)
+pi = Double(three) + pointOneFour         // 只有类型一致才能操作,转换格式: 类型名(变量或常量)
 let piInt = Int(pi)                       // Double转Int,系统自动忽略小数点后面的数,会损失精度
 
 let trueValue = true                      // Bool两种类型: true false
